@@ -22,7 +22,28 @@ header h3{
     padding-left: 5%;
 }
 /* Education */
-
+.edu .experience{
+    background-color: rgb(87, 138, 180);
+    color: rgb(203, 241, 253);
+    border-radius: 25px;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.edu .experience h2{
+    margin: 0;
+}
+.edu .experience .location{
+    display: flex;
+    justify-content: space-between;
+}
+.edu .experience .location p{
+    margin: 0;
+}
+.edu ul{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 /* Proffessional */
 .prof .cards ul{
     padding: 20px;
