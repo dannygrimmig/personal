@@ -17,6 +17,12 @@ header h3{
     padding: 15px 25px 15px 25px;
 }
 
+/* Main */
+.titles{
+    padding-left: 5%;
+}
+/* Education */
+
 /* Proffessional */
 .prof .cards ul{
     padding: 20px;
@@ -32,7 +38,7 @@ header h3{
     perspective: 1000px;
 }
 .prof .cards ul li .inner .front{
-    background-color: lightblue;
+    background-color: rgb(158, 214, 233);
     height: 360px;
     padding: 20px;
     display: flex;
@@ -90,3 +96,4 @@ header h3{
     font-size: smaller;
 }
 
+/* Volunteer */
