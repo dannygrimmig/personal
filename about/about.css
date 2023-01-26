@@ -26,6 +26,7 @@ main{
 }
 .flex{
     display: flex;
+    flex-wrap: wrap;
     gap: 20px;
     justify-content: space-between;
 }
@@ -33,7 +34,7 @@ main{
     border-radius: 50px;
 }
 .flex .about{
-    flex: 3;
+    width: 400px;
     height:420px;
     font-size: large;
 
@@ -46,7 +47,7 @@ main{
     background-image: url(../media/profilephone.png);
     background-size: cover;
     background-position: center bottom;
-    flex: 4;
+    width: 700px;
     height: 420px;
 }
 
@@ -60,11 +61,51 @@ footer ul{
     grid-auto-rows: 150px;
 }
 footer ul li{
-    background-color: steelblue;
+    background-color: aliceblue;
     list-style: none;
     border-radius: 50px;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-weight: bold;
+    font-size: x-large;
+    color: transparent;
+}
+.golf{
+    background-image: url("https://golf.com/wp-content/uploads/2021/05/golfer.jpg");
+    background-size: cover;
+}
+.run{
+    background-image: url("https://www.runtastic.com/blog/wp-content/uploads/2021/05/thumbnail_1200x800-2.jpg");
+    background-size: cover;
+
+}
+.guitar{
+    background-image: url("https://consequence.net/wp-content/uploads/2018/03/the-tallest-man-earth-new-song-when-the-bird-sees-the-solid-ground.png");
+    background-size: cover;
+}
+.film{
+    background-image: url(../media/utahtrees.png);
+    background-size: cover;
+}
+.camp{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg/1200px-Tent_camping_along_the_Sulayr_trail_in_La_Taha%2C_Sierra_Nevada_National_Park_%28DSCF5147%29.jpg");
+    background-size: cover;
+}
+.travel{
+    background-image: url("https://lp-cms-production.imgix.net/features/2015/12/Riomaggiore_cs.jpg");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+footer ul li:hover{
+    background-color: steelblue;
+    color: aliceblue;
 }
