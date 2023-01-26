@@ -6,6 +6,9 @@ a{
     text-decoration: none;
     color: black;
 }
+a:hover{
+    color: gray;
+}
 
 /* Header */
 header h1{
@@ -81,7 +84,7 @@ header h3{
     height: 100%;
     transition: transform 1s;
     transform-style: preserve-3d;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(70, 131, 180, 0.452);
 
 
     border-radius: 25px;
