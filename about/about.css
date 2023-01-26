@@ -28,7 +28,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: center;
 }
 .flex div{
     border-radius: 50px;
@@ -47,7 +47,7 @@ main{
     background-image: url(../media/profilephone.png);
     background-size: cover;
     background-position: center bottom;
-    width: 700px;
+    width: 600px;
     height: 420px;
 }
 
