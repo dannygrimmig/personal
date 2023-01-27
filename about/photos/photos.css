@@ -1,0 +1,38 @@
+/* All */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: gray;
+}
+
+/* Header */
+header h1{
+    padding: 15px 25px 0px 25px;
+    color: steelblue;
+}
+header h3{
+    margin-top: -50px;
+    padding: 15px 25px 15px 25px;
+}
+
+/* Main */
+main{
+    padding: 10px 50px 50px 50px;
+}
+.photowall{
+    padding: 0;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.photowall li{
+    background-size: cover;
+    border-radius: 25px;
+    height: 350px;
+    list-style: none;
+}

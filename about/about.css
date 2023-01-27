@@ -73,6 +73,9 @@ footer ul li{
     font-size: x-large;
     color: transparent;
 }
+footer ul li a{
+    color: transparent;
+}
 .golf{
     background-image: url("https://golf.com/wp-content/uploads/2021/05/golfer.jpg");
     background-size: cover;
@@ -106,6 +109,8 @@ footer ul li{
 
 
 footer ul li:hover{
-    background-color: steelblue;
+    color: aliceblue;
+}
+footer ul li:hover a{
     color: aliceblue;
 }
