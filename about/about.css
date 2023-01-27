@@ -28,7 +28,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-around;
 }
 .flex div{
     border-radius: 50px;
