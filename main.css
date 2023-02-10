@@ -67,7 +67,7 @@ body{
 }
 .socials li{
     padding: 15px;
-    background-color: aliceblue;
+    background-color:rgb(172, 214, 238);
     border-radius: 100%;
     border: 1px solid black;
     transition: all ease .2s;
