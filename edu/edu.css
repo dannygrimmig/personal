@@ -9,6 +9,9 @@ a{
 a:hover{
     color: gray;
 }
+.test{
+    color: gray;
+}
 
 /* Header */
 header h1{
