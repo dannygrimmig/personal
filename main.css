@@ -22,7 +22,13 @@ body{
     font-size: x-large;
     color: transparent;
     text-decoration: none;
+    
+    border: 2px solid black;
+    transition: all ease .2s;
 
+}
+.grid ul a:hover{
+    box-shadow: 5px 5px black;
 }
 .grid ul .me{ /* about me */
     background-image: url(./media/profilegolfing.png);
@@ -63,7 +69,17 @@ body{
     padding: 15px;
     background-color: aliceblue;
     border-radius: 100%;
+    border: 1px solid black;
+    transition: all ease .2s;
+ 
+
 }
+.socials li:hover{
+    transform: scale(1.1);
+    box-shadow: 1px 1px;
+
+}
+
 
 /* Mobile */
 /* Portrait */
