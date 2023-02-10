@@ -23,10 +23,15 @@ header h3{
 /* Main */
 .titles{
     padding-left: 5%;
+    transition: .8s;
+}
+.titles:hover{
+    color: steelblue;
+    text-shadow: 10px 20px black;
 }
 /* Education */
 .edu .experience{
-    background-color: rgb(87, 138, 180);
+    background-color: rgb(233, 233, 233);
     border-radius: 25px;
     padding: 20px;
     margin-left: 10%;
@@ -38,6 +43,7 @@ header h3{
 }
 .edu .experience:hover{
     box-shadow: 5px 5px black;
+    background-color: rgb(26, 88, 139);
     color: white;
 }
 .edu .experience h2{
