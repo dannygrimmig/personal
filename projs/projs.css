@@ -1,6 +1,9 @@
 /* All */
 body{
     font-family: 'Poppins', sans-serif;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 a{
     text-decoration: none;
@@ -18,4 +21,62 @@ header h1{
 header h3{
     margin-top: -50px;
     padding: 15px 25px 15px 25px;
+}
+
+main{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.fs{
+    background-color: aliceblue;
+    padding: 10px 10% 10px 10%;
+
+    border-top: 2px solid black;
+}
+.fe{
+    background-color: steelblue;
+    height: 500px;
+
+    border-top: 2px solid black;
+}
+.be{
+    background-color: rgb(25, 25, 95);
+    height: 500px;
+
+    border-top: 2px solid black;
+}
+
+.fs .upper ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    transition: all 1s;
+}
+.fs .upper ul li{
+    background-color: lightgray;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 10px;
+    height: 300px;
+    flex: 1;
+    transition: all .5s;
+}
+.fs .upper ul:hover > :not(:hover){
+    filter: blur(3px);
+}
+.fs .upper ul li:hover{
+    flex: 3;
+}
+.fs .lower{
+    display: flex;
+    font-size: x-large;
+}
+.fs .lower p{
+    padding-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
