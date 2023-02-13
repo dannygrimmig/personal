@@ -64,9 +64,9 @@ main{
     flex: 1;
     transition: all .5s;
 }
-.fs .upper ul:hover > :not(:hover){
+/* .fs .upper ul:hover > :not(:hover){
     filter: blur(3px);
-}
+} */
 .fs .upper ul li:hover{
     flex: 3;
 }
