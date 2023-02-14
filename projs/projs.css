@@ -5,11 +5,11 @@ body{
     padding: 0px;
     margin: 0px;
 }
-a{
+header a{
     text-decoration: none;
     color: black;
 }
-a:hover{
+header a:hover{
     color: gray;
 }
 
@@ -55,7 +55,7 @@ main{
     padding: 0;
     transition: all 1s;
 }
-.fs .upper ul li{
+.fs .upper ul a{
     background-color: lightgray;
     background-size: cover;
     border-radius: 10px;
@@ -67,8 +67,9 @@ main{
 /* .fs .upper ul:hover > :not(:hover){
     filter: blur(3px);
 } */
-.fs .upper ul li:hover{
+.fs .upper ul a:hover{
     flex: 3;
+    box-shadow: 5px 5px black;
 }
 .fs .lower{
     display: flex;
