@@ -11,15 +11,15 @@ images.forEach(function(image, index){
         console.log(index);
         if(index>=0 && index<=1){
             fsTitle.innerHTML = image.id;
-            fsBio.innerHTML = "enter " + image.id +  " description here";
+            fsBio.innerHTML = image.name;
         }
         else if(index>=2 && index<=5){
             feTitle.innerHTML = image.id;
-            feBio.innerHTML = "enter " + image.id +  " description here";
+            feBio.innerHTML = image.name;
         }
         else{
             beTitle.innerHTML = image.id;
-            beBio.innerHTML = "enter " + image.id +  " description here";
+            beBio.innerHTML = image.name;
         }
     })
 })
