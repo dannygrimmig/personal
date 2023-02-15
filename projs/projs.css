@@ -71,14 +71,37 @@ main{
 } */
 .fs .upper ul a:hover{
     flex: 3;
+    box-shadow: 5px 5px white;
 }
 .fs .lower{
     display: flex;
     font-size: x-large;
 }
-.fs .lower p{
-    padding-left: 50px;
+.fs .lower .description{
+    padding: 10px 0 10px 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.fs .lower .description p{
+    flex: 2;
+    display: flex;
+    align-items: center;
+}
+.fs .lower .description .tools{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+.fs .lower .description .tools span{
+    background-color: aliceblue;
+    border: 1px solid black;
+    margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 65px;
+    width: 65px;
+    border-radius: 100%;
 }
