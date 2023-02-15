@@ -63,13 +63,14 @@ main{
     height: 300px;
     flex: 1;
     transition: all .5s;
+    box-shadow: 5px 5px black;
+    border: 2px solid black;
 }
 /* .fs .upper ul:hover > :not(:hover){
     filter: blur(3px);
 } */
 .fs .upper ul a:hover{
     flex: 3;
-    box-shadow: 5px 5px black;
 }
 .fs .lower{
     display: flex;
