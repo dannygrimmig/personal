@@ -7,9 +7,9 @@ let feBio = document.getElementById("feBio");
 let beBio = document.getElementById("beBio");
 
 let toolsContainer = document.getElementsByClassName("tools");
-let html = document.createElement("span"); html.innerHTML = "HTML";
-let css = document.createElement("span"); css.innerHTML = "CSS";
-let js = document.createElement("span"); js.innerHTML = "JS";
+let html = document.createElement("span"); let htmlIMG = document.createElement("img"); htmlIMG.height="75"; htmlIMG.width="75"; htmlIMG.src = "./media/html.png"; html.appendChild(htmlIMG);
+let css = document.createElement("span"); let cssIMG = document.createElement("img"); cssIMG.height="75"; cssIMG.width="75"; cssIMG.src = "./media/css3.png"; css.appendChild(cssIMG);
+let js = document.createElement("span"); let jsIMG = document.createElement("img"); jsIMG.height="75"; jsIMG.width="75"; jsIMG.src = "./media/java-script.png"; js.appendChild(jsIMG);
 
 images.forEach(function(image, index){
     image.addEventListener("mouseover", function(){
