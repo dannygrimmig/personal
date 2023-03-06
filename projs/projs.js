@@ -17,10 +17,20 @@ images.forEach(function(image, index){
         if(index>=0 && index<=1){
             fsTitle.innerHTML = image.id;
             fsBio.innerHTML = image.name;
+            image.addEventListener("mouseout",function(){
+                fsTitle.innerHTML = "Full Stack";
+                fsBio.innerHTML = "Here are a few of my favorite full stack projects displaying end to end development.";
+                toolsContainer[1].innerHTML = "";
+            })
         }
         else if(index>=2 && index<=5){
             feTitle.innerHTML = image.id;
             feBio.innerHTML = image.name;
+            image.addEventListener("mouseout",function(){
+                feTitle.innerHTML = "Front End";
+                feBio.innerHTML = "Here are some of my recent front end developement projects.";
+                toolsContainer[1].innerHTML = "";
+            })
 
             if(index < 4){
                 toolsContainer[1].appendChild(html);
@@ -37,6 +47,11 @@ images.forEach(function(image, index){
         else{
             beTitle.innerHTML = image.id;
             beBio.innerHTML = image.name;
+            image.addEventListener("mouseout",function(){
+                beTitle.innerHTML = "Back End";
+                beBio.innerHTML = "Here are a few back end projects.";
+                toolsContainer[1].innerHTML = "";
+            })
         }
     })
 })
